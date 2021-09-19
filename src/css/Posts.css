@@ -1,0 +1,31 @@
+
+
+.deleteIcon:hover{
+    opacity: 1;
+    cursor: pointer;
+    fill : red !important;
+}
+
+.editIcon:hover{
+    opacity: 1;
+    cursor: pointer;
+    fill : greenyellow !important;
+}
+
+.text-warning{
+    color: #66fcf1;
+}
+
+.post-bg{
+    font-family: 'Rajdhani', sans-serif;
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.post-bg{
+    background-image: none;
+}
+
+.post-bg::-webkit-scrollbar{
+    display: none;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.home-bg{
+    position: relative;
+    width: 100vw;
+    height:  100%;
+    
+}
+
+.heading{
+    font-family: 'Carattere', cursive;
+    font-size: 100px;
+    color:#84CEEB;
+}
+
+.detail{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    text-align: left;
+    
+}
+
+.home-bg-color{
+    height:  90vh;
+    background-color: rgba(8, 8, 8, 0.297);
+    background-position: inherit;
+}
+
+.tech{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 0 0 0;
+    margin: 5px;
+    border: solid 5px;
+    border-radius:10px;
+    width: 60%;
+    height:75%;
+    margin: 25px auto;
+    font-family: 'Indie Flower', cursive;
+}
+
+.react{
+    color: rgb(52, 235, 232);
+    transition: 1s, font-size 0.2s;
+    background-color:rgb(52, 235, 232,0.3);
+}
+.react:hover{
+    color: azure;
+    font-size: 30px;
+    border-color: rgb(52, 235, 232);;
+    cursor: pointer;
+    background-color:rgb(52, 235, 232,0.65);
+}
+.html{
+    color: rgb(247, 95, 12);
+    transition: 1s, font-size 0.2s;
+    background-color:rgb(247, 95, 12,0.3);
+}
+.html:hover{
+    color: azure;
+    font-size: 30px;
+    border-color: rgb(247, 95, 12);;
+    cursor: pointer;
+    background-color:rgb(247, 95, 12,0.65);
+}
+.css{
+    color: rgb(0, 128, 255);
+    transition: 1s, font-size 0.2s;
+    background-color:rgb(0, 128, 255,0.3);
+}
+.css:hover{
+    color: azure;
+    font-size: 30px;
+    border-color: rgb(0, 128, 255);;
+    cursor: pointer;
+    background-color:rgb(0, 128, 255,0.65);
+}
+.bootstrap{
+    color: rgb(134, 7, 245);
+    transition: 1s, font-size 0.2s;
+    background-color:rgb(134, 7, 245,0.3);
+}
+.bootstrap:hover{
+    color: azure;
+    font-size: 30px;
+    border-color: rgb(134, 7, 245);;
+    cursor: pointer;
+    background-color:rgb(134, 7, 245,0.65);
+}

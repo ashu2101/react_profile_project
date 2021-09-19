@@ -1,0 +1,28 @@
+
+.about-bg{
+    width: 100vw;
+    height:  90vh;
+    background-image: url("../Images/about_page.jpg");
+    background-size: 100%;
+    /* background-position-y: 45%;    
+    background-position-x: 0%;     */
+    background-attachment: fixed;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.instagram:hover{
+    color: rgba(240, 60, 60, 0.8);
+    cursor: pointer;
+}
+.linkedin:hover{
+    color: rgba(5, 95, 250, 0.8);
+    cursor: pointer;
+}
+.twitter:hover{
+    color: rgba(21, 169, 237, 0.8);
+    cursor: pointer;
+}
+.gitHub:hover{
+    color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+}

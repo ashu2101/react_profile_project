@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+.nav1{
+    display: block;
+    padding: 12px 12px;
+    color:whitesmoke;
+    opacity: 0.6;
+}
+
+.nav1:hover{
+    color: #66fcf1;
+    opacity:1;
+    font-size: 17px;
+    border-style: solid ;
+    border-width: thin;
+    /* tab-size: 17px; */
+}
+.nav1:active{
+    color: whitesmoke;
+}
+
+.navbar1{
+    position: fixed;
+    top:0;
+    width:100%;
+    /* overflow: hidden; */
+}
+
+.logo-font{
+    font-family: 'Grechen Fuemen', cursive;
+    font-size: 30px;
+    color: #45a29e;
+}
+.logo-font:hover{
+    font-size: 32px;
+    color: #66fcf1;
+}
