@@ -21,13 +21,13 @@ function Home() {
         </div>
         <div className="row mt-3 ">
           <div className="col-md-6">
-            <div class="tech react">
+            <div className="tech react">
               <img src={react} alt="react" style={{ width: 45, height: 45 }} />
               <strong>React</strong>
             </div>
           </div>
           <div className="col-md-6">
-            <div class="tech html">
+            <div className="tech html">
               <img src={html} alt="html" style={{ width: 45, height: 45 }} />
               <strong>Html 5</strong>
             </div>

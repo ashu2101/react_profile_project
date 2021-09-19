@@ -2,9 +2,9 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Posts from "./Components/Posts";
 import Navbar from "./Components/Navbar";
 import About from "./Components/About";
-import Comments from "./Components/Comments";
+// import Comments from "./Components/Comments";
 import Home from "./Components/Home";
-import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
