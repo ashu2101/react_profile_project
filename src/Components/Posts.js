@@ -131,7 +131,7 @@ function Posts() {
           "Content-type": "application/json; charset=UTF-8",
         },
       });
-      const data = res.data;
+//       const data = res.data;
       const tempPostData = postData.filter((each) => {
         return each.id !== id;
       });
