@@ -125,13 +125,12 @@ function Posts() {
 
   const udpatePosts = async (id) => {
     try {
-      const res = await axios.put(`${API_URL}/posts/${id}`, {
+      await axios.put(`${API_URL}/posts/${id}`, {
         body: JSON.stringify(formData),
         headers: {
           "Content-type": "application/json; charset=UTF-8",
         },
       });
-//       const data = res.data;
       const tempPostData = postData.filter((each) => {
         return each.id !== id;
       });
