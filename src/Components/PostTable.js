@@ -26,7 +26,7 @@ function PostTable({ postData, handleAction }) {
               //   How should I prevent using id, userId, title and body and make it Dynamic
               <tr key={each.id} className=" p-5">
                 <th scope="row">{each.userId}</th>
-                <td colSpan="3" scope="col">
+                <td colSpan="3" >
                   <strong>{each.title}</strong>
                   <p>{each.body}</p>
                 </td>
